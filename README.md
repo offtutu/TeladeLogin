@@ -49,9 +49,9 @@ Depois abra no navegador:
   - Exibe o front atual do projeto.
 - `/unicorn-preview/`
   - Exibe um exemplo básico usando Django Unicorn.
+ 
+## Futuras adições
 
-## Observacoes
-
-- Os codigos originais de `Front` e `Back` foram mantidos.
-- O Django foi adicionado ao redor da estrutura atual para organizar o projeto.
-- O Django Unicorn ja esta preparado para futuras integracoes com o formulario.
+- uma falando que o login foi bem sucedido
+- uma tela para criação de conta
+- uma tela para recuperação de senha
