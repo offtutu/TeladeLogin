@@ -1,0 +1,13 @@
+<div>
+    <label for="usuario">Usuario</label>
+    <input id="usuario" unicorn:model.defer="usuario" type="text">
+
+    <label for="senha">Senha</label>
+    <input id="senha" unicorn:model.defer="senha" type="password">
+
+    <button unicorn:click="entrar">Entrar</button>
+
+    {% if mensagem %}
+    <p>{{ mensagem }}</p>
+    {% endif %}
+</div>

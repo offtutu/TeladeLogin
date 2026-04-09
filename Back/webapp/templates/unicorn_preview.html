@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicorn Preview</title>
+</head>
+<body>
+    <h1>Preview Django Unicorn</h1>
+    {% if has_django_unicorn %}
+        {% load unicorn %}
+        {% unicorn_scripts %}
+        {% unicorn 'login-demo' %}
+    {% else %}
+        <p>
+            O projeto ja foi preparado para Django Unicorn, mas esta maquina usa
+            Python 3.13 e a dependencia orjson ainda nao instalou aqui.
+        </p>
+    {% endif %}
+</body>
+</html>
